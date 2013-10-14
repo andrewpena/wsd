@@ -1,0 +1,95 @@
+body {
+width: 960px;
+margin: auto;
+}
+
+#wrapper {
+width: 1000px;
+background: #8fb7f8;
+padding: 10px;
+color: #000;
+}
+
+h1 { 
+text-align: center;
+font: 4em 'Racing Sans One', cursive, arial, serif
+}
+
+h2 {
+padding: 0 10px;
+}
+
+
+h2, h3, h4 {
+text-align: center;
+ }
+ 
+h2, h3, h4 {
+font: 2em 'Ceviche One', cursive, arial, serif
+}
+
+p{
+font: 1em 'Prosto One', cursive, arial, serif;
+}
+
+ol {
+font: 1em 'Prosto One', cursive, arial;
+list-style-type: none;
+}
+
+ul {
+width: 300px;
+margin: 0 auto;
+list-style-type: none;
+padding: 0;
+text-align: right;
+float: right;
+}
+
+.places {
+width: 480px;
+float: left;
+text-align: center;
+padding: 20px 0;
+}
+
+aside {
+width: 400px;
+float: left;
+text-align: center;
+padding:0 0 15px;     
+}
+
+article {
+clear: left;
+}
+
+.nav{
+width: 100px;
+float: left;
+font: 1em exo, arial, serif
+}
+
+footer {
+font: bold 2em 'Poiret One', cursive, arial, serif;
+text-align: center;
+padding: 25px;
+}
+
+.photos {
+padding: 10px 0;
+-moz-column-count: 2;
+-moz-column-gap: 25px;
+}
+
+section {
+padding: 15px 0;
+-moz-column-count: 3;
+-moz-column-gap: 25px;
+}
+
+.festivals {
+padding: 20px;
+-moz-column-count: 3;
+-moz-column-gap: 25px;
+}
