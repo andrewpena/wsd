@@ -12,11 +12,11 @@ color: #000;
 }
 
 #header_image {
-padding: 5px;
+padding: .5%;
 }
 
 header {
-padding: 5px;
+padding: .5%;
 }
 
 h1 { 
@@ -25,7 +25,7 @@ font: 4em 'Racing Sans One', cursive, arial, serif
 }
 
 h2 {
-padding: 0 10px;
+padding: 0 1.0%;
 }
 
 
