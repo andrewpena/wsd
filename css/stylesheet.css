@@ -1,13 +1,22 @@
 body {
-width: 960px;
-margin: auto;
+font-size: 100%;
+max-width: 1000px;
+margin: 0 auto;
 }
 
 #wrapper {
-width: 1000px;
+max-width: 100%; /*1000px*/
 background: #8fb7f8;
-padding: 10px;
+padding: 10px 0;
 color: #000;
+}
+
+#header_image {
+padding: 5px;
+}
+
+header {
+padding: 5px;
 }
 
 h1 { 
@@ -22,7 +31,7 @@ padding: 0 10px;
 
 h2, h3, h4 {
 text-align: center;
- }
+}
  
 h2, h3, h4 {
 font: 2em 'Ceviche One', cursive, arial, serif
@@ -30,6 +39,7 @@ font: 2em 'Ceviche One', cursive, arial, serif
 
 p{
 font: 1em 'Prosto One', cursive, arial, serif;
+margin: 10px;
 }
 
 ol {
@@ -38,30 +48,34 @@ list-style-type: none;
 }
 
 ul {
-width: 300px;
+width: 30%; /*300px*/
 margin: 0 auto;
 list-style-type: none;
 padding: 0;
-text-align: right;
+text-align: left;
 float: right;
 }
 
 .places {
-width: 480px;
+width: 48%; /*480px*/
 float: left;
 text-align: center;
-padding: 20px 0;
+padding: 20px 0; 
 }
 
 aside {
-width: 400px;
+width: 42%; /*400px*/
 float: left;
 text-align: center;
-padding:0 0 15px;     
+padding: 0 0 15px;     
 }
 
 article {
 clear: left;
+}
+
+a {
+text-decoration: none;
 }
 
 .nav{
@@ -73,23 +87,105 @@ font: 1em exo, arial, serif
 footer {
 font: bold 2em 'Poiret One', cursive, arial, serif;
 text-align: center;
-padding: 25px;
+padding: 2.5%;
 }
 
 .photos {
-padding: 10px 0;
+padding-left: 2.5%; 
 -moz-column-count: 2;
--moz-column-gap: 25px;
+-moz-column-gap: 2.5%; 
+margin: 0 auto;
 }
 
 section {
-padding: 15px 0;
+padding: 1.5% 0;
 -moz-column-count: 3;
--moz-column-gap: 25px;
+-moz-column-gap: 2.5%;
 }
 
 .festivals {
-padding: 20px;
+padding: 2.0%;
 -moz-column-count: 3;
--moz-column-gap: 25px;
+-moz-column-gap: 2.5%;
+}
+
+img {
+max-width: 100%;
+}
+
+/* =Media Queries
+===============================================================*/
+
+/* Tablet Portrait Size to Standard 960 (Devices and Browsers) */
+@media screen and (min-width: 768px) and (max-width: 959px) {
+	#wrapper {
+	background: #000;
+	color: #fff;
+	}
+}
+
+/* Mobile Landscape Size to Tablet Portrait (Devices and Browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	#wrapper {
+	background: #5c7380;
+	color: #b8e7ff;
+	}
+	
+	.photos {
+	-moz-column-count: 2;
+	}
+	
+	section {
+	-moz-column-count: 2;
+	}
+	
+	.festivals {
+	-moz-column-count: 2;
+	}
+	
+	ul {
+	width: 20%;
+	}
+
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (Devices and Browsers) */ 
+@media only screen and (max-width: 479px) {
+	#wrapper {
+	background: #ccf4ff;
+	color: #9ca398;
+	}
+	
+	#header_image {
+	padding: .5%;
+	display: none;
+	}
+	
+	.photos {
+	-moz-column-count: 1;
+	padding-right: 5.0%;
+	}
+	
+	section {
+	-moz-column-count: 1;
+	}
+	
+	.festivals {
+	-moz-column-count: 1;
+	}
+	
+	.places {
+	float: none;
+	width: 90%;
+	}
+	
+	aside {
+	float: none;
+	width: 90%;
+	}
+	
+	ul {
+	width: 20%;
+	}
+
 }
