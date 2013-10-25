@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+			<meta charset='utf-8'>
+			<meta name='viewport' content='width=device-width, initial-sacle=1, maximum-scale=1'>
+			<title>My New Web Site</title>
+			<link rel='stylesheet' href='css/stylesheet.css'>
+			<link href='http://fonts.googleapis.com/css?family=Poiret+One|Racing+Sans+One|Exo:100|Ceviche+One|Prosto+One' rel='stylesheet' type='text/css'>
+
+<body>
+	<div id='wrapper'>
+	<nav>
+	<ul>
+			<li class='nav'><a href='index.html'>Home</a></li>
+			<li class='nav'><a href='about.html'>About</a></li>
+			<li class='nav'><a href='contact.html'>Contact</a></li>
+	</ul>
+	</nav>
+	<header>
+			<h1><a href='index.html'><img src='images/logo.jpg' alt='Port Hueneme Logo'></a>Contact Us!</h1>
+	</header>
+	<div id='header_image'>
+		<a href='images/beach1.jpg'><img src='images/beach.jpg' alt='Hueneme Beach' title='Photo of Hueneme beach'></a>
+	</div>
+		<table>
+			<tr>
+				<th>Name</th>
+				<th>Contact Number</th>
+				<th>Location</th>
+				<th>Web Site</th>
+			</tr>
+			<tr>
+				<td>City Council</td>
+				<td>(805) 986-6500</td>
+				<td>250 North Ventura Road
+				Port Hueneme, CA 93041</td>
+				<td><a href='http://www.ci.port-hueneme.ca.us/index.aspx?NID=27'>Port Hueneme City Council</a></td>
+			</tr>
+			<tr>
+				<td>Police Department</td>
+				<td>(805) 986-6530</td>
+				<td>250 North Ventura Road
+				Port Hueneme, CA 93041</td>
+				<td><a href='http://www.ci.port-hueneme.ca.us/index.aspx?nid=187'>Port Hueneme Police</a></td>
+			</tr>
+			<tr>
+				<td>Fire Department</td>
+				<td>(805) 371-1111</td>
+				<td>304 N. Second St.
+				Port Hueneme, CA 93041</td>
+				<td><a href='http://fire.countyofventura.org/AboutVCFD/Stations/Station53/tabid/151/Default.aspx'>Port Hueneme Fire</a></td>
+			</tr>
+		</table>
+		<form class='form' method='post' action='mailto:andrewpena@roadrunner.com'>
+		<fieldset>
+		<legend>Contact Info</legend>
+			<div>
+				<label for='name_first'>First Name</label>
+				<input type='text' name='name_first' id='name_first'>
+			</div>	
+			<div>
+				<label for='name_last'>Last Name</label>
+				<input type='text' name='name_last' id='name_last'>
+			</div>
+			<div>
+				<label for='phone'>Phone Number</label>
+				<input type='text' name='phone' id='phone'>
+			</div>	
+			<div>
+				<label for='email'>Email Address</label>
+				<input type='text' name='email' id='email'>
+			</div>
+			<div>
+				<label for='regarding'>Regarding</label>
+			</div>
+			<div>
+				<select name='regarding' id='regarding'>
+				<option>City Council</option>
+				<option>Police Department</option>
+				<option>Fire Department</option>
+				<option>Places to Visit</option>
+				<option>Naval Bases</option>
+				</select>
+			</div>
+			<div>
+				<label for='message'>Message</label>
+				<textarea rows='10' cols='20' name='message' id='message'></textarea>
+			</div>
+				<label>Is this the first time contacting us.</label>
+			<div>
+				<label for='yes'>Yes</label>
+				<input type='checkbox' name='yes' id='yes'/>
+			</div>
+			<div>
+				<label for='no'>No</label>
+				<input type='checkbox' name='no' id='no'/>
+			</div>
+			<div>
+				<button type='submit' name='submit' class='button'>Send Message</button>
+			</div>
+			</fieldset>
+		</form>	
+		<footer>Thank You for Visiting the Hueneme Beach Area</footer>
+	</div>
+</body>
+</html>
