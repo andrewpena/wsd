@@ -82,6 +82,18 @@ a {
 	display: block;
 	outline: 0;
 } 
+
+a:visited {
+	background-color: 00fa00;
+}
+
+a:hover {
+	background-color: #00f;
+}
+
+a:active {
+	background-color: #0ff;
+}
  
 ol {
 	width: 300px;
