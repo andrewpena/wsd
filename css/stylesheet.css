@@ -1,157 +1,273 @@
 body {
-	width: 960px;
-	margin: auto;
+	font-size: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
 	font-family: 'life savers';
 	color: #fff;
-}
+	}
 
 #wrapper {
-	width: 990px;
-	background-color: #000;
-	padding: 10px;
-}
+	max-width: 100%; 
+	background-image: url('../images/sunset_sky.jpg');
+	padding: 1.041666666667%;   
+	}
 
 header {	
 	overflow: hidden;
-	margin-bottom: 25px;
-}
+	margin-bottom: 2.604166666667%; 
+	}
 
 #header_image {
+	max-width: 100%;
 	float: left;
-	padding: 25px 0 0 40px;
-
-}
-
-#hawk {
-	float: left;
-	padding-left: 40px;
-}
+	padding: 2.604166666667% 0 0 4.166666666667%; 
+	}
 
 h1 { 
-	width: 500px;
-	font: 5em Griffy, cursive, serif;
+	font: 5em griffy, cursive, serif;
+	width: 52.083333333333%;
 	float: left;
 	text-align: center;
-	padding-left: 100px;
-	text-shadow: 8px 8px 4px #00f; 	
-}
+	padding-left: 10.416666666667%; 
+	text-shadow: 8px 8px 4px #00f;   	
+	}
+
+#hawk {
+	max-width: 100%;
+	float: left;
+	padding-left: 4.166666666667%; 
+	padding-top: 2%;
+	}
 
 section {
-	width: 400px;
-	float: right;
-	padding-right: 50px;
+	width: 39.583333333333%;  
+	float: left;
+	padding-left: 5.208333333333%; 
 	text-align: justify;
-	margin: 15px auto;
-}
+	margin: 1.5625% auto;
+	}
 
 article {
-	width: 700px;
-	margin-left: 140px;
+	width: 72.916666666667%;  
+	margin-left: 14.583333333333%; 
 	-moz-column-count: 2;
 	text-align: center;
- }
+	}
  
 article ul {
-	padding: 15px;
- }
+	padding: 1.5625%; 
+	}
  
 article p {
 	font: 2.5em 'metal mania', cursive, arial, serif;
 	text-shadow: 3px 3px 2px #00f; 	
+	}
 
-}
+article img {
+	max-width: 100%;
+	}
  
 aside {
-	padding: 10px 50px;
-
-}
+	padding: 1.041666666667% 5.208333333333%;
+	}
  
 aside ul{
-	margin: 25px auto;
-
-}
+	margin: 2.604166666667% auto;  
+	}
 
 p {
-
 	margin: 0;
-}
+	}
  
 a {
 	color: #fff;
 	text-decoration: none;
 	display: block;
 	outline: 0;
-} 
+	} 
 
 a:visited {
 	background-color: 00fa00;
-}
+	}
 
 a:hover {
 	background-color: #00f;
-}
+	}
 
 a:active {
 	background-color: #0ff;
-}
+	}
  
 ol {
 	width: 300px;
 	margin: 0 auto;
 	list-style-type: none;
-	padding-left: 200px;
-}
+	padding-left: 20.833333333333%;
+	}
 
 ol li {
 	width: 100px;
-	height: 30px;
+	height: 3.125%; 
 	float: left;
 	text-align: center;	
-}
+	}
 
 ul {
 	list-style-type: none;	
-	padding: 0 5px;
+	padding: 0 .520833333333%;  
 	margin: 0;
-}
+	}
 
-h2, h3, h4{
+h2, h3, h4 {
 	text-align: center;
 	font: 3.5em 'metal mania', cursive, arial, serif;
 	clear: both;
-	text-shadow: 5px 5px 4px #00f; 	
-}
+	text-shadow: 5px 5px 4px #00f;  	
+	}
+	
+h2 {
+	margin: 0;
+	padding: 50px 0 0;
+	}
 
 footer {
 	font: 3em monofett, cursive, serif; 
 	text-align: center;
 	clear: both;
-	padding-top: 10px;
+	padding-top: 1.041666666667%; 
 	color: #fff;
-}
+	}
+	
+#gallery {
+	margin: 25px 0;
+	padding: 10px;
+	-moz-column-count: 3;
+	}
 
-#photo1 ul {
-	padding: 0 380px;
-
-}
+#h2 {
+	text-align: center;
+	padding: 10px 0 0;
+	-moz-column-count: 3;
+	}
+	
+#small {
+	font-weight: bold;
+	font-variant: small-caps;
+	}
 
 img {
+	max-width: 100%;
 	border: 2px solid #fff;
-}
+	}
+	
+#photo1 ul {
+	padding: 10px 380px;
+	margin-top: 25px;
+	}
 
 #photo2 ul {
-	padding: 0 250px;
+	padding: 10px 250px;
 	-moz-column-count: 2;
-}
+	}
 
 #photo3 ul {
-	padding: 0 130px;
+	padding: 10px 130px;
 	-moz-column-count: 3;
-}
+	}
 
 #photo4 ul {
-	padding: 0;
+	padding: 10px 0;
 	margin: 0 10px;
 	-moz-column-count: 4;
+	}
+	
+#photo_gallery: {
+	padding-top: 25px;
+	}
+
+/* =Media Queries
+===============================================================*/
+
+/* Tablet Portrait Size to Standard 960 (Devices and Browsers) */
+@media screen and (min-width: 768px) and (max-width: 960px) {
+
+#wrapper {
+	padding: 0;
+	}
+
+#hawk {
+	max-width: 100%;
+	padding-left: 21.875%; 
+	padding-top: 2%;
+	}
+
+section {
+	-moz-column-count: 2;
+	width: 83.333333333333%; 
+	padding-left: 8.333333333333%;
+	text-align: justify;
+	}	
 }
 
+/* Mobile Landscape Size to Tablet Portrait (Devices and Browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#wrapper {
+	padding: 0;
+	}
+	
+#hawk {
+	max-width: 100%;
+	padding-left: 17.5%; 
+	padding-top: 2%;
+	}
+
+section {
+	-moz-column-count: 2;
+	width: 83.333333333333%;  
+	padding-left: 8.333333333333%; 
+	text-align: justify;
+	}	
+	
+ul {
+	max-width: 100%;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (Devices and Browsers) */ 
+@media only screen and (max-width: 479px) {
+
+#wrapper {
+	padding: 0;
+	}
+	
+#header_image {
+	display: none;
+	}
+	
+#hawk {
+	max-width: 100%;
+	padding-left: 5%; 
+	padding-top: 2%;
+	}
+
+section {
+	-moz-column-count: 2;
+	width: 83.333333333333%;  
+	padding-left: 8.333333333333%; 
+	text-align: justify;
+	}	
+		
+section {
+	-moz-column-count: 1;
+	}
+	
+aside {
+	float: none;
+	width: 90%;
+	}
+	
+ul {
+	max-width: 100%;
+	}	
+}
